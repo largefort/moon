@@ -1,0 +1,61 @@
+body {
+    background: #0d1117; /* Dark background for space theme */
+    color: #c0c0c0; /* Light grey text for contrast */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #ff8c00; /* Orange color for a moon-like appearance */
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.btn {
+    margin-top: 10px;
+    border-radius: 20px; /* Rounded buttons */
+}
+
+.btn-primary {
+    background-color: #1b1f23; /* Dark color for primary buttons */
+    border-color: #c0c0c0;
+    color: #c0c0c0;
+}
+
+.btn-primary:hover {
+    background-color: #272b30;
+    border-color: #ff8c00;
+}
+
+.btn-secondary {
+    background-color: #24292e; /* Slightly lighter dark color for secondary buttons */
+    border-color: #768390;
+    color: #768390;
+}
+
+.btn-secondary:hover {
+    background-color: #2d333b;
+    border-color: #ff8c00;
+    color: #c0c0c0;
+}
+
+.game-container {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.upgrade-section {
+    margin-top: 30px;
+}
+
+#resource-counter {
+    font-size: 1.5rem;
+    color: #58a6ff; /* Light blue for resources */
+    margin-bottom: 20px;
+}
+
+.text-muted {
+    color: #8b949e; /* Muted text color */
+}
